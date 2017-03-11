@@ -1,0 +1,19 @@
+{
+  "name": "promise-from-stream",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxxx5/promise-from-stream.git"
+  },
+  "author": "yxxx5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yxxx5/promise-from-stream/issues"
+  },
+  "homepage": "https://github.com/yxxx5/promise-from-stream#readme"
+}
