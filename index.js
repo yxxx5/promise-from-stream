@@ -1,4 +1,4 @@
-module.exports = (stream) = {
+module.exports = (stream) => {
   return new Promise((resolve, reject) => {
       stream.on('end', () => {
         resolve(stream)
