@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "mocha -t 15000 test/test.js",
+    "test": "jest  test/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/yxxx5/promise-from-stream/issues"
   },
-  "homepage": "https://github.com/yxxx5/promise-from-stream#readme"
+  "homepage": "https://github.com/yxxx5/promise-from-stream#readme",
+  "devDependencies": {
+    "contentstream": "^1.0.0",
+    "jest": "^19.0.2",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1"
+  }
 }
