@@ -1,6 +1,7 @@
-const Writable = require('stream').Writable
+const Readable = require('stream').Readable
+
 module.exports = (stream) => {
-    let ev = stream instanceof Writable ? 'finish' : 'end'
+    let ev = stream instanceof Readable ? 'end' : 'finish'
     return new Promise((resolve, reject) => {
         stream.on(ev, () => {
             resolve(stream)

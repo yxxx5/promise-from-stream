@@ -1,4 +1,4 @@
-const pfs = require('../index')
+const pfs = require('../main')
 //const contentstream = require('contentstream')
 const fs = require('fs')
 //const assert = require('assert')

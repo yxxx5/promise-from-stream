@@ -1,8 +1,8 @@
 {
   "name": "promise-from-stream",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test1": "mocha -t 15000 test/test.js",
     "test": "jest  test/test.js"
@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/yxxx5/promise-from-stream#readme",
   "devDependencies": {
-    "contentstream": "^1.0.0",
     "jest": "^19.0.2",
-    "mocha": "^3.2.0",
     "rimraf": "^2.6.1"
   }
 }
