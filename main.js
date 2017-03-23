@@ -1,7 +1,13 @@
 const Readable = require('stream').Readable
-
+const Writable = require('stream').Writable
 module.exports = (stream) => {
-    let ev = stream instanceof Readable ? 'end' : 'finish'
+    let ev = 'close';
+    if (stream instanceof Readable) {
+        ev = 'end'
+    } else if (stream instanceof Writable) {
+        ev = 'finish'
+    }
+
     return new Promise((resolve, reject) => {
         stream.on(ev, () => {
             resolve(stream)
