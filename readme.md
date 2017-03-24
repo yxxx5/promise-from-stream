@@ -1,5 +1,5 @@
 ### promise-from-stream
-Promisify Stream
+Promisify stream, is used for await/async
 
 #### install
 
