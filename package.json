@@ -1,6 +1,6 @@
 {
   "name": "promise-from-stream",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "url": "https://github.com/yxxx5/promise-from-stream/issues"
   },
   "keywords": [
-    "stream", "promise-from-stream", "promise-stream"
+    "stream",
+    "promise-from-stream",
+    "promise-stream"
   ],
   "homepage": "https://github.com/yxxx5/promise-from-stream#readme",
   "devDependencies": {
