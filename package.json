@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/yxxx5/promise-from-stream/issues"
   },
+  "keywords": [
+    "stream", "promise-from-stream", "promise-stream"
+  ],
   "homepage": "https://github.com/yxxx5/promise-from-stream#readme",
   "devDependencies": {
     "jest": "^19.0.2",
