@@ -1,5 +1,5 @@
 ### promise-from-stream
-Promisify stream, is used for await/async
+Promisify Readable Writable...Stream, is used for await/async
 
 #### install
 
@@ -9,8 +9,14 @@ Promisify stream, is used for await/async
 
     const pfs = require('promise-from-stream')
     async function d(){
-        await pfs(new Readable().pipe(new Transform).pipe(new Writable({
-            dest: filePath
-        })))
+        await pfs(
+            new Readable().pipe(
+                new Transform
+            ).pipe(
+                    new Writable({
+                        dest: filePath
+                    })
+                )
+        )
         //done
     }

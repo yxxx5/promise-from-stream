@@ -18,12 +18,18 @@
   },
   "keywords": [
     "stream",
+    "promise",
+    "await/async",
     "promise-from-stream",
-    "promise-stream"
+    "promise-stream",
+    "await/async stream",
+    "end-of-stream",
+    "close-of-stream"
   ],
   "homepage": "https://github.com/yxxx5/promise-from-stream#readme",
   "devDependencies": {
     "jest": "^19.0.2",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "trim": "0.0.1"
   }
 }

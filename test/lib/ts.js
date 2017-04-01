@@ -1,5 +1,5 @@
 const Transform = require('stream').Transform
-const fs = require('fs')
+
 class ts extends Transform {
     constructor(options) {
         super(options)
